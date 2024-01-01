@@ -1,0 +1,59 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content-form {
+  background-color: white;
+  width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50px;
+}
+
+.form-dialog {
+  width: 100%;
+}
+
+.form-dsg {
+  background-color: rgb(196, 212, 207);
+  padding: 15px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.form-dsg label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-dsg input,
+.form-dsg textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-dsg button {
+  background-color: rgb(196, 212, 207);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.showValues {
+  margin-left: 350px;
+  width: 650px;
+  height: auto;
+  border: 2px solid #333;
+  background-color: antiquewhite;
+}

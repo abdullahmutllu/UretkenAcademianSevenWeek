@@ -1,0 +1,8 @@
+.content {
+  min-height: calc(100vh - 50px);
+  color: white;
+  margin-left: 50px;
+}
+.content-details {
+  margin: 10px;
+}
